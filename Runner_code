@@ -1,0 +1,10 @@
+def an(n,arr):
+a=max(arr)
+arr.remove(a)
+return max(arr)
+
+if __name__ == ‘__main__’:
+n = int(input())
+arr = map(int, input().split())
+print(an(n,arr))
+
